@@ -77,7 +77,7 @@ const Navbar = () => {
           <div className="items-center justify-center hidden space-x-12 lg:flex ">
             <a
               href="#"
-              className="px-3 py-2 font-medium text-black rounded-md bg-gradient-to-r from-orange-500 to-orange-800 hover:shadow-lg hover:shadow-yellow-300/25"
+              className="px-3 py-2 font-medium text-white rounded-md bg-gradient-to-r from-orange-500 to-orange-800 hover:shadow-lg hover:shadow-yellow-300/25"
             >
               Contact Me
             </a>
@@ -137,7 +137,7 @@ const Navbar = () => {
             <div className="flex w-full py-5 space-x-6">
               <a
                 href="#"
-                className="w-full px-2 py-3 font-medium text-center text-black rounded-md bg-gradient-to-r from-orange-500 to-orange-800 hover:shadow-lg hover:shadow-yellow-300/25"
+                className="w-full px-2 py-3 font-medium text-center text-white rounded-md bg-gradient-to-r from-orange-500 to-orange-800 hover:shadow-lg hover:shadow-yellow-300/25"
               >
                 Contact Me
               </a>
