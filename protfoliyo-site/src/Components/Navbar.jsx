@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
           <ul className="hidden space-x-12 lg:flex ml-14">
             {navItems.map((item, index) => (
-              <li key={index} className="relative hover:text-[#fde68a]">
+              <li key={index} className="relative hover:text-orange-500">
                 <a
                   href={item.href}
                   className="flex items-center cursor-pointer"
@@ -77,7 +77,7 @@ const Navbar = () => {
           <div className="items-center justify-center hidden space-x-12 lg:flex ">
             <a
               href="#"
-              className="px-3 py-2 font-medium text-black rounded-md bg-gradient-to-r from-yellow-300 via-blue-400 to-purple-400 hover:shadow-lg hover:shadow-yellow-300/25"
+              className="px-3 py-2 font-medium text-black rounded-md bg-gradient-to-r from-orange-500 to-orange-800 hover:shadow-lg hover:shadow-yellow-300/25"
             >
               Contact Me
             </a>
@@ -98,7 +98,7 @@ const Navbar = () => {
                 <li key={index} className="w-full">
                   <a
                     href={item.href}
-                    className="flex items-center justify-between w-full px-4 py-4 text-center text-white bg-neutral-900 hover:text-[#fde68a] hover:bg-[#3f3f46]"
+                    className="flex items-center justify-between w-full px-4 py-4 text-center text-white bg-neutral-900 hover:text-orange-500 hover:bg-[#3f3f46]"
                     onClick={() => handleDropdownClick(index)}
                   >
                     {item.label}
@@ -137,7 +137,7 @@ const Navbar = () => {
             <div className="flex w-full py-5 space-x-6">
               <a
                 href="#"
-                className="w-full px-2 py-3 font-medium text-center text-black rounded-md bg-gradient-to-r from-yellow-300 via-blue-400 to-purple-400 hover:shadow-lg hover:shadow-yellow-300/25"
+                className="w-full px-2 py-3 font-medium text-center text-black rounded-md bg-gradient-to-r from-orange-500 to-orange-800 hover:shadow-lg hover:shadow-yellow-300/25"
               >
                 Contact Me
               </a>
