@@ -1,19 +1,25 @@
 /* eslint-disable react/no-unescaped-entities */
-// import {Me} from "../assets/myimage.png"
+   import Meimg from "../assets/myimage.png"
 
 const AboutMe = () => {
   return (
     
-<div className="relative">
-  <div className="sticky top-0 flex items-center justify-center h-screen">
-    <img src="https://www.stockvault.net/data/2012/10/29/137060/preview16.jpg" className="object-cover w-full h-full" />
-    <div className="absolute left-0 right-0 flex flex-col items-start justify-center w-2/4 gap-4 p-10 m-auto backdrop-blur-xl">
-      <h2 className="text-2xl font-bold">First Section</h2>
-      <p className="font-sans text-lg text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+    <div className="container px-4 py-16 mx-auto sm:px-6 lg:px-8">
+        <div className="grid items-center grid-cols-1 gap-8 md:grid-cols-2">
+            <div className="max-w-lg">
+                <h2 className="text-3xl font-semibold text-gray-300 sm:text-4xl">About Me</h2>
+                <p className="mt-4 text-lg text-gray-400">With over 4 years of experience in digital product design, I'm passionate about creating engaging and functional solutions that meet users' needs. 
+                    My focus on user research and usability ensures that each design not only looks great but also delivers an exceptional experience</p>
+                <div className="mt-8">
+                    <a href="#" className="font-medium text-orange-500 hover:text-orange-700">Learn more about Me
+                        <span className="ml-2">&#8594;</span></a>
+                </div>
+            </div>
+            <div className="mt-12 md:mt-0">
+                <img src={Meimg} alt="About Us Image" className="object-cover rounded-lg shadow-md"/>
+            </div>
+        </div>
     </div>
-  </div>
-
-</div>
     
   )
 }
