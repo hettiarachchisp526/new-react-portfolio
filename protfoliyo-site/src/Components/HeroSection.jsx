@@ -22,7 +22,7 @@ const HeroSection = () => {
 
   return (
     <div className="relative">
-      <div className={`sticky top-0 flex flex-col items-center h-auto mt-6 mb-20 lg:mt-20 lg:mb-72 transition-transform duration-500 ${isSticky ? 'transform scale-95 translate-y-2 opacity-90' : 'opacity-100'}`}>
+      <div className={`sticky top-0 flex flex-col items-center h-auto mt-12 mb-12 lg:mt-20 lg:mb-72 transition-transform duration-500 ${isSticky ? 'transform scale-95 translate-y-2 opacity-90' : 'opacity-100'}`}>
         <h1 className="text-4xl font-semibold tracking-wide text-center sm:text-6xl lg:text-7xl">
           Hi, I'm Subodha Hettiarachchi
         </h1>
@@ -35,7 +35,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <p className="max-w-4xl text-base text-center text-neutral-500 sm:text-xl">
+        <p className="max-w-4xl text-base text-center text-neutral-400 sm:text-xl">
           I'm a passionate Software Engineering undergraduate with a strong focus on UI/UX design and front-end development.
           Welcome to my portfolio, where I showcase my journey and projects in software engineering and design.
         </p>
