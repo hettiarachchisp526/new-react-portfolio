@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import Background from './Components/Background'
 import AboutMe from './Components/AboutMe'
 import Services from './Components/Services'
+import Projects from './Components/Projects'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
          <HeroSection/>
          <AboutMe/>
          <Services/>
+         <Projects/>
      </div>
 
     </>
