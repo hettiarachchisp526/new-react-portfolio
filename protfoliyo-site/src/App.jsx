@@ -6,6 +6,7 @@ import AboutMe from './Components/AboutMe'
 import Services from './Components/Services'
 import Projects from './Components/Projects'
 
+
 const App = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const App = () => {
          <AboutMe/>
          <Services/>
          <Projects/>
+         
      </div>
 
     </>

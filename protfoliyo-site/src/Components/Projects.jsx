@@ -1,204 +1,185 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
+import { Github, Figma, Palette } from 'lucide-react';
+import proj1 from "../assets/ProjectsIMG/project test 1.png"
+import proj2 from "../assets/ProjectsIMG/project test 2.png"
 
 const Projects = () => {
-    const [showCard, setShowCard] = useState("all");
+  const [showCard, setShowCard] = useState("all");
 
   const handleProject = (category) => {
     setShowCard(category);
   };
 
   return (
-
     <div id="projects" className="container px-4 py-16 mx-auto sm:px-6 lg:px-8">
+      <div className="flex flex-col items-center max-w-full text-start">
+        <h2 className="max-w-full mb-8 text-3xl font-semibold text-center text-gray-300 sm:text-4xl">Projects</h2>
+        <p className="max-w-full mb-8 text-base text-center text-neutral-400 sm:text-xl">
+          A collection of my work in software development, graphic design, and UI/UX design. Explore how I turn ideas into impactful digital solutions.
+        </p>
+      </div>
 
-<div className=" flex max-w-[64rem] flex-col items-start  text-start">
-<h2 className="mb-8 text-3xl font-semibold text-gray-300 sm:text-4xl">Projects</h2>
-</div>
+      <>
+        <section className="pt-0 pb-12 lg:pt-8 lg:pb-[90px] dark:bg-dark">
+          <div className="container mx-auto">
+            <div className="flex flex-wrap justify-center max-w-full">
+              <div className="w-full">
+                <ul className="flex flex-wrap justify-center mb-20 space-x-1 rounded-lg bg-slate-400 backdrop-blur-md bg-opacity-5">
+                  <li className="mt-5 mb-5">
+                    <button
+                      onClick={() => handleProject("all")}
+                      className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                        showCard === "all"
+                          ? "bg-gradient-to-r from-orange-500 to-red-800 text-white"
+                          : "text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
+                      }`}
+                    >
+                      All Projects
+                    </button>
+                  </li>
 
-<>
-      <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark">
-        <div className="container mx-auto">
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full px-4">
-              <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-                <span className="block mb-2 text-lg font-semibold text-primary">
-                  Our Portfolio
-                </span>
-                <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
-                  Our Recent Projects
-                </h2>
-                <p className="text-base text-body-color dark:text-dark-6">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
-                </p>
+                  <li className="mt-5 mb-5">
+                    <button
+                      onClick={() => handleProject("Software Development")}
+                      className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                        showCard === "Software Development"
+                          ? "bg-gradient-to-r from-orange-500 to-red-800 text-white"
+                          : "text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
+                      }`}
+                    >
+                      Software Development
+                    </button>
+                  </li>
+
+                  <li className="mt-5 mb-5">
+                    <button
+                      onClick={() => handleProject("UiUx Design")}
+                      className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                        showCard === "UiUx Design"
+                          ? "bg-gradient-to-r from-orange-500 to-red-800 text-white"
+                          : "text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
+                      }`}
+                    >
+                      UI/UX Design
+                    </button>
+                  </li>
+
+                  <li className="mt-5 mb-5">
+                    <button
+                      onClick={() => handleProject("Graphics Design")}
+                      className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                        showCard === "Graphics Design"
+                          ? "bg-gradient-to-r from-orange-500 to-red-800 text-white"
+                          : "text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
+                      }`}
+                    >
+                      Graphics Design
+                    </button>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
 
-          <div className="flex flex-wrap justify-center w-full -mx-4">
-            <div className="w-full px-4">
-              <ul className="flex flex-wrap justify-center mb-12 space-x-1">
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject("all")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "all"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
-                    }`}
-                  >
-                    All Projects
-                  </button>
-                </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject("branding")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "branding"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
-                    }`}
-                  >
-                    Branding
-                  </button>
-                </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject("design")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "design"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
-                    }`}
-                  >
-                    Design
-                  </button>
-                </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject("marketing")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "marketing"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
-                    }`}
-                  >
-                    Marketing
-                  </button>
-                </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject("development")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "development"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
-                    }`}
-                  >
-                    Development
-                  </button>
-                </li>
-              </ul>
+            <div className="container p-4 mx-auto">
+              <PortfolioCard
+                category="Graphics Design"
+                title="Ecommerce"
+                year="2023"
+                description="Transformed an e-commerce website with a modern redesign, optimizing the shopping journey and elevating brand identity."
+                imageSrc= {proj1}
+                githubLink="#"
+                figmaLink="#"
+                paletteLink="#"
+                showCard={showCard}
+              />
+              <PortfolioCard
+                category="Software Development"
+                title="Ecommerce Software"
+                year="2023"
+                description="Transformed an e-commerce website with a modern redesign, optimizing the shopping journey and elevating brand identity."
+                imageSrc={proj2}
+                githubLink="#"
+                figmaLink="#"
+                paletteLink="#"
+                showCard={showCard}
+              />
+              {/* Add more PortfolioCard components as needed */}
             </div>
           </div>
-          <div className="flex flex-wrap -mx-4">
-            <PortfolioCard
-              ImageHref="https://i.ibb.co/64WfFPt/image-01.jpg"
-              category="Branding"
-              title="Creative Agency"
-              button="View Details"
-              buttonHref="#"
-              showCard={showCard}
-            />
-            <PortfolioCard
-              ImageHref="https://i.ibb.co/PT7ghRs/image-06.jpg"
-              category="marketing"
-              title="Creative Agency"
-              button="View Details"
-              buttonHref="#"
-              showCard={showCard}
-            />
-            <PortfolioCard
-              ImageHref="https://i.ibb.co/vkt8C1P/image-02.jpg"
-              category="marketing"
-              title="Creative Agency"
-              button="View Details"
-              buttonHref="#"
-              showCard={showCard}
-            />
-            <PortfolioCard
-              ImageHref="https://i.ibb.co/3FKqS1G/image-03.jpg"
-              category="Development"
-              title="Creative Agency"
-              button="View Details"
-              buttonHref="#"
-              showCard={showCard}
-            />
-            <PortfolioCard
-              ImageHref="https://i.ibb.co/m6dq2fX/image-04.jpg"
-              category="Design"
-              title="Creative Agency"
-              button="View Details"
-              buttonHref="#"
-              showCard={showCard}
-            />
-            <PortfolioCard
-              ImageHref="https://i.ibb.co/mCPjBsH/image-05.jpg"
-              category="Marketing"
-              title="Creative Agency"
-              button="View Details"
-              buttonHref="#"
-              showCard={showCard}
-            />
-          </div>
-        </div>
-      </section>
-    </>
-
-
+        </section>
+      </>
     </div>
-  )
-}
+  );
+};
 
 export default Projects;
 
-
 const PortfolioCard = ({
-    showCard,
-    category,
-    ImageHref,
-    title,
-    button,
-    buttonHref,
-  }) => {
-    return (
-      <>
-        <div
-          className={`w-full px-4 md:w-1/2 xl:w-1/3 ${
-            showCard === "all" || showCard === category.toLowerCase()
-              ? "block"
-              : "hidden"
-          }`}
-        >
-          <div className="relative mb-12">
-            <div className="overflow-hidden rounded-[10px]">
-              <img src={ImageHref} alt="portfolio" className="w-full" />
-            </div>
-            <div className="relative z-10 mx-7 -mt-20 rounded-lg bg-white dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
-              <span className="block mb-2 text-sm font-medium text-primary">
-                {category}
-              </span>
-              <h3 className="mb-5 text-xl font-bold text-dark dark:text-white">{title}</h3>
+  showCard,
+  category,
+  title,
+  year,
+  description,
+  imageSrc,
+  githubLink,
+  figmaLink,
+  paletteLink
+}) => {
+  return (
+    <div
+      className={`w-full  ${
+        showCard === "all" || showCard === category ? "block" : "hidden"
+      }`}
+    >
+      <div className="flex flex-col items-center p-6 mb-12 rounded-lg shadow-lg bg-slate-400 backdrop-blur-md bg-opacity-5 md:flex-row md:items-start">
+        {/* Text Section */}
+        <div className="w-full text-left md:w-1/2">
+          <h3 className="text-xl font-bold text-white">{title}</h3>
+          <p className="mt-2 text-sm text-gray-400">
+            {year} - {category}
+          </p>
+          <p className="mt-4 text-sm text-gray-300">{description}</p>
+          <div className="flex items-center mt-6 space-x-4">
+            {githubLink && (
               <a
-                href={buttonHref}
-                className="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white"
+                href={githubLink}
+                className="flex items-center px-3 py-2 text-sm text-white transition bg-gray-800 rounded-lg hover:bg-gray-700"
               >
-                {button}
+                <Github className="w-4 h-4 mr-2" />
+                GitHub
               </a>
-            </div>
+            )}
+            {figmaLink && (
+              <a
+                href={figmaLink}
+                className="flex items-center px-3 py-2 text-sm text-white transition bg-gray-800 rounded-lg hover:bg-gray-700"
+              >
+                <Figma className="w-4 h-4 mr-2" />
+                Figma
+              </a>
+            )}
+                        {paletteLink && (
+              <a
+                href={paletteLink}
+                className="flex items-center px-3 py-2 text-sm text-white transition bg-gray-800 rounded-lg hover:bg-gray-700"
+              >
+                <Palette className="w-4 h-4 mr-2" />
+                Behance
+              </a>
+            )}
           </div>
         </div>
-      </>
-    );
-  };
+
+        {/* Image Section */}
+        <div className="w-full mt-6 md:w-1/2 md:mt-0 md:ml-8">
+          <img
+            src={imageSrc}
+            alt={title}
+            className="w-full rounded-lg shadow-md"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
