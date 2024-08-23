@@ -21,7 +21,7 @@ const Projects = () => {
       </div>
 
       <>
-        <section className="pt-0 pb-12 lg:pt-8 lg:pb-[90px] dark:bg-dark">
+        <section className="pt-0  lg:pt-8 lg:pb-[90px] dark:bg-dark">
           <div className="container mx-auto">
             <div className="flex flex-wrap justify-center max-w-full">
               <div className="w-full">
@@ -81,7 +81,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="container p-4 mx-auto">
+            <div className="container mx-auto">
               <PortfolioCard
                 category="Graphics Design"
                 title="Ecommerce"
@@ -104,11 +104,26 @@ const Projects = () => {
                 paletteLink="#"
                 showCard={showCard}
               />
+              <PortfolioCard
+                category="UiUx Design"
+                title="Ecommerce Software"
+                year="2023"
+                description="Transformed an e-commerce website with a modern redesign, optimizing the shopping journey and elevating brand identity."
+                imageSrc={proj2}
+                githubLink="#"
+                figmaLink="#"
+                paletteLink="#"
+                showCard={showCard}
+              />
               {/* Add more PortfolioCard components as needed */}
             </div>
           </div>
         </section>
       </>
+      <div className="text-center ">
+                    <a href="#" className="font-medium text-center text-orange-500 hover:text-orange-700">See more
+                        <span className="ml-2">&#8594;</span></a>
+                </div>
     </div>
   );
 };
@@ -134,41 +149,44 @@ const PortfolioCard = ({
     >
       <div className="flex flex-col items-center p-6 mb-12 rounded-lg shadow-lg bg-slate-400 backdrop-blur-md bg-opacity-5 md:flex-row md:items-start">
         {/* Text Section */}
-        <div className="w-full text-left md:w-1/2">
+        <div className="w-full h-auto text-left md:w-1/2">
+        <div>
           <h3 className="text-xl font-bold text-white">{title}</h3>
           <p className="mt-2 text-sm text-gray-400">
             {year} - {category}
           </p>
-          <p className="mt-4 text-sm text-gray-300">{description}</p>
-          <div className="flex items-center mt-6 space-x-4">
-            {githubLink && (
-              <a
-                href={githubLink}
-                className="flex items-center px-3 py-2 text-sm text-white transition bg-gray-800 rounded-lg hover:bg-gray-700"
-              >
-                <Github className="w-4 h-4 mr-2" />
-                GitHub
-              </a>
-            )}
-            {figmaLink && (
-              <a
-                href={figmaLink}
-                className="flex items-center px-3 py-2 text-sm text-white transition bg-gray-800 rounded-lg hover:bg-gray-700"
-              >
-                <Figma className="w-4 h-4 mr-2" />
-                Figma
-              </a>
-            )}
-                        {paletteLink && (
-              <a
-                href={paletteLink}
-                className="flex items-center px-3 py-2 text-sm text-white transition bg-gray-800 rounded-lg hover:bg-gray-700"
-              >
-                <Palette className="w-4 h-4 mr-2" />
-                Behance
-              </a>
-            )}
+          <p className="mt-4 text-sm text-gray-300 h-[]">{description}</p>
           </div>
+          <div className="flex flex-wrap items-center mt-6 space-x-2">
+  {githubLink && (
+    <a
+      href={githubLink}
+      className="flex items-center px-2 py-1 text-xs text-white transition bg-gray-800 rounded-lg sm:px-3 sm:py-2 md:px-4 md:py-3 sm:text-sm md:text-base hover:bg-gray-700"
+    >
+      <Github className="w-4 h-4 mr-1 sm:w-5 sm:h-5 md:w-6 md:h-6" />
+      <span className="hidden md:block">GitHub</span>
+    </a>
+  )}
+  {figmaLink && (
+    <a
+      href={figmaLink}
+      className="flex items-center px-2 py-1 text-xs text-white transition bg-gray-800 rounded-lg sm:px-3 sm:py-2 md:px-4 md:py-3 sm:text-sm md:text-base hover:bg-gray-700 "
+    >
+      <Figma className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
+      <span className="hidden md:block">Figma</span>
+    </a>
+  )}
+  {paletteLink && (
+    <a
+      href={paletteLink}
+      className="flex items-center px-2 py-1 text-xs text-white transition bg-gray-800 rounded-lg sm:px-3 sm:py-2 md:px-4 md:py-3 sm:text-sm md:text-base hover:bg-gray-700"
+    >
+      <Palette className="w-4 h-4 mr-1 sm:w-5 sm:h-5 md:w-6 md:h-6" />
+      <span className="hidden md:block lg:mr-1">Behance</span>
+    </a>
+  )}
+</div>
+
         </div>
 
         {/* Image Section */}
