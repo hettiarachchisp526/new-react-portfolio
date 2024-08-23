@@ -1,28 +1,24 @@
+import  { useState, useEffect, useRef } from "react"; // Ensure React is imported if using JSX
+
 import { navItems } from "../constants";
-import { Menu, X, ChevronDown, ChevronUp } from "lucide-react";
-import { useState, useEffect, useRef } from "react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(null);
-
   const dropdownRef = useRef(null);
 
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
 
-  const handleDropdownClick = (index) => {
-    setDropdownOpen(dropdownOpen === index ? null : index);
-  };
-
-  const handleClickOutside = (event) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-      setDropdownOpen(null);
-    }
-  };
-
+  // Handle clicks outside of the dropdown (if necessary)
   useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setMobileDrawerOpen(false);
+      }
+    };
+
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
@@ -39,38 +35,10 @@ const Navbar = () => {
           <ul className="hidden space-x-12 lg:flex ml-14">
             {navItems.map((item, index) => (
               <li key={index} className="relative hover:text-orange-500">
-                <a
-                  href={item.href}
-                  className="flex items-center cursor-pointer"
-                  onClick={() => handleDropdownClick(index)}
-                >
+                <a href={item.href} className="flex items-center cursor-pointer">
                   {item.label}
-                  {item.isDropdown && (
-                    <>
-                      {dropdownOpen === index ? (
-                        <ChevronUp className="ml-2" size={16} />
-                      ) : (
-                        <ChevronDown className="ml-2" size={16} />
-                      )}
-                    </>
-                  )}
+                  {/* Removed dropdown handling */}
                 </a>
-                {item.isDropdown && dropdownOpen === index && (
-                  <div
-                    ref={dropdownRef}
-                    className="absolute left-0 w-40 mt-2 bg-black rounded-md shadow-lg "
-                  >
-                    <ul>
-                      {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
-                        <li key={dropdownIndex} className="hover:bg-[#18181b]">
-                          <a href={dropdownItem.href} className="block px-4 py-2">
-                            {dropdownItem.label}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
               </li>
             ))}
           </ul>
@@ -99,38 +67,10 @@ const Navbar = () => {
                   <a
                     href={item.href}
                     className="flex items-center justify-between w-full px-4 py-4 text-center text-white bg-neutral-900 hover:text-orange-500 hover:bg-[#3f3f46]"
-                    onClick={() => handleDropdownClick(index)}
                   >
                     {item.label}
-                    {item.isDropdown && (
-                      <>
-                        {dropdownOpen === index ? (
-                          <ChevronUp size={16} />
-                        ) : (
-                          <ChevronDown size={16} />
-                        )}
-                      </>
-                    )}
+                    {/* Removed dropdown handling */}
                   </a>
-                  {item.isDropdown && dropdownOpen === index && (
-                    <div
-                      ref={dropdownRef}
-                      className="w-full bg-[#27272a]"
-                    >
-                      <ul>
-                        {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
-                          <li
-                            key={dropdownIndex}
-                            className="hover:bg-[#3f3f46]"
-                          >
-                            <a href={dropdownItem.href} className="block px-4 py-2">
-                              {dropdownItem.label}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
                 </li>
               ))}
             </ul>
