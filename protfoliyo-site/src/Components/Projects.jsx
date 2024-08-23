@@ -161,7 +161,7 @@ const PortfolioCard = ({
   {githubLink && (
     <a
       href={githubLink}
-      className="flex items-center px-2 py-1 text-xs text-white transition bg-gray-800 rounded-lg sm:px-3 sm:py-2 md:px-4 md:py-3 sm:text-sm md:text-base hover:bg-gray-700"
+      className="flex items-center px-2 py-1 text-xs text-white transition bg-gray-800 rounded-lg sm:px-3 sm:py-2 md:px-4 md:py-3 sm:text-sm md:text-base hover:bg-gray-700 sm:m-1"
     >
       <Github className="w-4 h-4 mr-1 sm:w-5 sm:h-5 md:w-6 md:h-6" />
       <span className="hidden md:block">GitHub</span>
