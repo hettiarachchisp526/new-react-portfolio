@@ -10,7 +10,7 @@ const Services = () => {
 
 <div className="flex flex-col items-center max-w-full ">
 
-<h2 className="max-w-full mb-8 text-3xl font-semibold text-center text-gray-300 sm:text-4xl">Services</h2>
+ <h2 className="max-w-full mb-8 text-3xl font-semibold text-center text-gray-300 sm:text-4xl">Services</h2>
 
     <p className="max-w-full mb-8 text-base text-center text-neutral-400 sm:text-xl">
     I bring ideas to life with clean and user-friendly UI/UX design, dynamic front-end development, and striking graphic design. Let's build something amazing together!
@@ -23,7 +23,7 @@ const Services = () => {
 <div className="grid flex-row justify-center gap-4 sm:grid-cols-2 md:grid-cols-3">
 
     <div
-        className="relative p-2 overflow-hidden bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
+        className="relative p-2 overflow-hidden transition-all duration-500 bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
         <img src={uiux} alt="Description of the image" className="w-12 h-12" /> 
             <div className="space-y-2">
@@ -34,7 +34,7 @@ const Services = () => {
     </div>
 
     <div
-        className="relative p-2 overflow-hidden bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
+        className="relative p-2 overflow-hidden transition-all duration-500 bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
         <img src={frontend} alt="Description of the image" className="w-12 h-12" /> 
             <div className="space-y-2">
@@ -45,7 +45,7 @@ const Services = () => {
     </div>
 
     <div
-        className="relative p-2 overflow-hidden bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
+        className="relative p-2 overflow-hidden transition-all duration-500 bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
         <img src={graphics} alt="Description of the image" className="w-12 h-12" />
             <div className="space-y-2">
