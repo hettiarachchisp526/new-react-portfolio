@@ -166,8 +166,8 @@ const PortfolioCard = ({
     href={githubLink}
     className="flex items-center justify-center p-2 text-xs text-white transition bg-gray-800 rounded-lg hover:bg-gray-700 sm:m-1 lg:p-3"
   >
-    <Github className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
-    <span className="hidden lg:block lg:ml-1">GitHub</span>
+    <Github className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-4" />
+    <span className="hidden md:block lg:ml-1">GitHub</span>
   </a>
 )}
 
@@ -176,7 +176,7 @@ const PortfolioCard = ({
       href={figmaLink}
       className="flex items-center justify-center p-2 text-xs text-white transition bg-gray-800 rounded-lg hover:bg-gray-700 sm:m-1 lg:p-3 "
     >
-      <Figma className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
+      <Figma className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-4" />
       <span className="hidden md:block lg:ml-1">Figma</span>
     </a>
   )}
@@ -186,7 +186,7 @@ const PortfolioCard = ({
       className="flex items-center justify-center p-2 text-xs text-white transition bg-gray-800 rounded-lg hover:bg-gray-700 sm:m-1 lg:p-3"
     >
                   <svg
-                  className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6"
+                  className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-4"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 576 512"
                   fill="currentColor"
