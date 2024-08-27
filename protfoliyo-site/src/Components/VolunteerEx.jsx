@@ -1,4 +1,6 @@
 import VolFossEx from "./VolFossEx"
+import VolIeee from "./VolIeee"
+import VolSlsac from "./VolSlsac"
 
 
 const VolunteerEx = () => {
@@ -18,16 +20,14 @@ const VolunteerEx = () => {
         <VolFossEx/>
     
 
-        {/* experiance section - Ceyentra tech------------------------------------------------------- */}
+        {/* experiance section - ieee------------------------------------------------------- */}
          
-       
+       <VolIeee/>
 
-        {/* experiance section - Aim creation------------------------------------------------------- */}
+        {/* experiance section - slsac------------------------------------------------------- */}
         
+        <VolSlsac/>
 
-
-        {/* experiance section - synergenicx------------------------------------------------------- */}
-        
 
     
     </div>
