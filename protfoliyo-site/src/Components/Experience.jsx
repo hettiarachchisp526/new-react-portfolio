@@ -30,7 +30,7 @@ const Experience = () => {
         <ExAimcreation/>
 
 
-        {/* experiance section - Aim creation------------------------------------------------------- */}
+        {/* experiance section - synergenicx------------------------------------------------------- */}
         <ExSynergenicx/>
 
     

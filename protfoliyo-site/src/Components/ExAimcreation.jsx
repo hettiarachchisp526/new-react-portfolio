@@ -6,7 +6,7 @@ const ExAimcreation = () => {
 
         {/* experiance section - Aimcreation------------------------------------------------------- */}
 
-        <div className='flex flex-col items-center justify-between w-full h-auto px-2 py-2 mx-auto mb-4 text-gray-800 transition-all duration-500 ease-in-out bg-white bg-opacity-0 border border-gray-200 shadow-md dark:text-gray-200 dark:border-gray-600 rounded-xl hover:shadow-md hover:shadow-orange-400 backdrop-blur-md'>
+        <div className='flex flex-col items-center justify-between w-full h-auto px-2 py-2 mx-auto mb-4 text-gray-800 transition-all duration-500 ease-in-out shadow-md dark:text-gray-200 dark:border-gray-600 rounded-xl hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-slate-400 b bg-opacity-5'>
         <div className='flex flex-wrap items-center justify-between w-full'>
             <div className='flex items-center justify-center px-2 md:px-6'>
                 <img className='hidden w-16 m-2 mr-3 rounded-full shadow-lg ring-2 ring-orange-600 md:block' src={aimcreation} alt="" />
