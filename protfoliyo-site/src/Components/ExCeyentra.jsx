@@ -9,7 +9,7 @@ const ExCeyentra = () => {
             <div className='flex items-center justify-center px-2 md:px-6'>
                 <img className='hidden w-16 m-2 mr-3 rounded-full shadow-lg ring-2 ring-orange-600 md:block' src={ceyentra} alt="" />
                 <div className='text-left '>
-                    <h4 className='text-lg uppercase duration-1000 ease-in-out md:text-2xl lg:text-2xl'><span className='text-blue-500'>Ceyentra</span>Technologies</h4>
+                    <h4 className='text-lg uppercase duration-1000 ease-in-out md:text-2xl lg:text-2xl'><span className='text-orange-500'>Ceyentra Technologies</span></h4>
                     <h4 className='text-sm font-medium md:text-base dark:text-gray-200'>Trainee UI/UX Designer</h4>
                 </div>
             </div>

@@ -2,6 +2,7 @@
 import ExAimcreation from './ExAimcreation'
 import ExCeyentra from './ExCeyentra'
 import ExParabyte from './ExParabyte'
+import ExSynergenicx from './ExSynergenicx'
 
 
 const Experience = () => {
@@ -27,6 +28,10 @@ const Experience = () => {
 
         {/* experiance section - Aim creation------------------------------------------------------- */}
         <ExAimcreation/>
+
+
+        {/* experiance section - Aim creation------------------------------------------------------- */}
+        <ExSynergenicx/>
 
     
     </div>
