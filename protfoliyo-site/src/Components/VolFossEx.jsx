@@ -14,7 +14,7 @@ const VolFossEx = () => {
             </div>
             <div className='inline-block gap-4 p-2 text-sm duration-500 ease-in-out md:text-right md:text-base'>
                 <p className='text-sm text-gray-800 md:text-base dark:text-gray-200'>Jun 2023 - Mar 2024 </p>
-                <p className='text-sm text-gray-800 md:text-base dark:text-gray-400'>Ful Time</p>
+                <p className='text-sm text-gray-800 md:text-base dark:text-gray-400'>Full Time</p>
             </div>
         </div>
         <div className='p-2 text-left'>
