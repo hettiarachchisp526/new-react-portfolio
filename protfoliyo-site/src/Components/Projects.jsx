@@ -164,7 +164,7 @@ const PortfolioCard = ({
   {githubLink && (
   <a
     href={githubLink}
-    className="flex items-center justify-center p-2 text-xs text-white transition bg-gray-800 rounded-lg hover:bg-gray-700 sm:m-1 lg:p-3"
+    className="flex items-center justify-center p-2 text-xs text-white transition bg-black border border-white rounded-lg hover:bg-gray-800 sm:m-1 lg:p-3 border-opacity-45"
   >
     <Github className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-4" />
     <span className="hidden md:block lg:ml-1">GitHub</span>
@@ -174,7 +174,7 @@ const PortfolioCard = ({
   {figmaLink && (
     <a
       href={figmaLink}
-      className="flex items-center justify-center p-2 text-xs text-white transition bg-gray-800 rounded-lg hover:bg-gray-700 sm:m-1 lg:p-3 "
+      className="flex items-center justify-center p-2 text-xs text-white transition bg-black border border-white rounded-lg hover:bg-gray-800 sm:m-1 lg:p-3 border-opacity-45"
     >
       <Figma className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-4" />
       <span className="hidden md:block lg:ml-1">Figma</span>
@@ -183,7 +183,7 @@ const PortfolioCard = ({
   {BehanceLink && (
     <a
       href={BehanceLink}
-      className="flex items-center justify-center p-2 text-xs text-white transition bg-gray-800 rounded-lg hover:bg-gray-700 sm:m-1 lg:p-3"
+      className="flex items-center justify-center p-2 text-xs text-white transition bg-black border border-white rounded-lg hover:bg-gray-800 sm:m-1 lg:p-3 border-opacity-45"
     >
                   <svg
                   className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-4"

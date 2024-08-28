@@ -34,7 +34,7 @@ const AboutMe = () => {
             {(!isMobile || showFullText) && (
               <>
                 {" "}
-                My expertise in UI/UX engineering, project management, and web development enables me to take a holistic approach to every project. By emphasizing user research and usability, I ensure that each design not only looks visually appealing but also provides an exceptional user experience. Whether I'm working on web development or managing a project, my goal is to create digital products that are both innovative and intuitive.
+                <br/><br/>My expertise in UI/UX engineering, project management, and web development enables me to take a holistic approach to every project. By emphasizing user research and usability, I ensure that each design not only looks visually appealing but also provides an exceptional user experience. Whether I'm working on web development or managing a project, my goal is to create digital products that are both innovative and intuitive.
               </>
             )}
           </p>

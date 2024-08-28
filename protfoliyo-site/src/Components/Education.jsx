@@ -27,7 +27,7 @@ const Education = () => {
                   BSC (Hons) Software Engineering
                 </h3>
                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                  NSBM Green University, Sri Lanka &amp; (CGPA: 3.35)
+                  NSBM Green University, Sri Lanka.  (CGPA: 3.35)
                 </p>
                 {/* <a href="#"
               className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn
@@ -47,7 +47,7 @@ const Education = () => {
                   GCE Advanced Level (Maths)
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  B/Dharmadutha College, Badulla.&amp; (Index: 665545)
+                  B/Dharmadutha College, Badulla. (Index: 665545)
                 </p>
               </li>
             </ol>
