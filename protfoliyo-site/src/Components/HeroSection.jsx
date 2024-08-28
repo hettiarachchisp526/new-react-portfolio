@@ -22,7 +22,7 @@ const HeroSection = () => {
 
   return (
     <div className="relative">
-      <div className={`sticky top-0 flex flex-col items-center h-auto mt-12 mb-12 lg:mt-20 lg:mb-72 transition-transform duration-500 ${isSticky ? 'transform scale-95 translate-y-2 opacity-90' : 'opacity-100'}`}>
+      <div className={`sticky top-0 flex flex-col items-center h-auto mt-12 mb-12 lg:mt-32 lg:mb-60 transition-transform duration-500  ${isSticky ? 'transform scale-95 translate-y-2 opacity-90' : 'opacity-100'}`}>
         <h1 className="text-4xl font-semibold tracking-wide text-center sm:text-6xl lg:text-7xl">
           Hi, I'm Subodha Hettiarachchi
         </h1>
