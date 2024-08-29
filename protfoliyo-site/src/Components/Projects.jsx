@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import { Github, Figma, } from 'lucide-react';
-import proj1 from "../assets/ProjectsIMG/project test 1.png"
-import proj2 from "../assets/ProjectsIMG/project test 2.png"
+import Portfolio from "../assets/ProjectyIMGs/Portfolio.png"
+import Prodigy from "../assets/ProjectyIMGs/Prodigy.png"
+import Flayers from "../assets/ProjectyIMGs/Flayers.png"
 
 
 
@@ -85,22 +86,23 @@ const Projects = () => {
 
             <div className="container mx-auto">
               <PortfolioCard
-                category="Graphics Design"
-                title="Ecommerce"
-                year="2023"
-                description="Transformed an e-commerce website with a modern redesign, optimizing the shopping journey and elevating brand identity."
-                imageSrc= {proj1}
+                category="Software Development"
+                title="My Portfolio Site"
+                year="2024"
+                description="I designed and developed a personal portfolio to showcase my skills, services, and experiences. Using Vite, React, and TailwindCSS, I created a fast, responsive, and visually appealing site that reflects my expertise in modern web development."
+                description2="The minimalist design and intuitive UI ensure seamless navigation, making it easy for visitors to explore my professional journey and the projects I've completed. This project demonstrates my ability to blend creativity with technical skill, resulting in a polished and effective online presence."
+                imageSrc= {Portfolio}
                 githubLink="#"
                 figmaLink="#"
                 BehanceLink="#"
                 showCard={showCard}
               />
               <PortfolioCard
-                category="Software Development"
-                title="Ecommerce Software"
+                category="Graphics Design"
+                title="Flyer Designs"
                 year="2023"
-                description="Transformed an e-commerce website with a modern redesign, optimizing the shopping journey and elevating brand identity."
-                imageSrc={proj2}
+                description="Under my brand, Dominate Graphics, I designed custom flyers tailored to meet client needs. Utilizing a range of tools including Photoshop, Illustrator, Canva, and Lightroom, I delivered visually compelling designs that effectively communicated brand messages and captured target audiences. Each project was approached with a focus on creativity, precision, and alignment with the client's vision, ensuring standout results in the competitive world of graphic design."
+                imageSrc={Flayers}
                 githubLink="#"
                 figmaLink="#"
                 BehanceLink="#"
@@ -108,10 +110,10 @@ const Projects = () => {
               />
               <PortfolioCard
                 category="UiUx Design"
-                title="Ecommerce Software"
-                year="2023"
-                description="Transformed an e-commerce website with a modern redesign, optimizing the shopping journey and elevating brand identity."
-                imageSrc={proj2}
+                title="Prodigy Website"
+                year="2024"
+                description="For the Prodigy initiative, I crafted a website design that embodies its mission to drive positive transformation across key areas like Youth Development, Entrepreneurship, and Sustainable Development. Using Figma, I developed a user-friendly and visually engaging interface that reflects Prodigy's commitment to empowering the youth and fostering community growth. The design is both modern and intuitive, ensuring that visitors can easily navigate and connect with Prodigy's core objectives and resources."
+                imageSrc={Prodigy}
                 githubLink="#"
                 figmaLink="#"
                 BehanceLink="#"
@@ -138,6 +140,7 @@ const PortfolioCard = ({
   title,
   year,
   description,
+  description2,
   imageSrc,
   githubLink,
   figmaLink,
@@ -159,6 +162,7 @@ const PortfolioCard = ({
             {year} - {category}
           </p>
           <p className="mt-4 text-sm text-gray-300 h-[]">{description}</p>
+          <p className="mt-4 text-sm text-gray-300 h-[]">{description2}</p>
           </div>
           <div className="flex flex-wrap items-center mt-6 space-x-2">
   {githubLink && (
