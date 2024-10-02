@@ -1,30 +1,32 @@
-import bgimg from "../assets/Homebg.png"
+import bgimg from "../assets/Homebg.png";
 
 const Background = () => {
   return (
-	// <!--Start Background Animation Body-->
-		<div className="area">
-                <div className="absolute inset-0">
-           <img src={bgimg} alt="Background Image" className="object-cover object-center w-full h-full" /> 
+    // Start Background Animation Body
+    <div className="area">
+      <div className="absolute inset-0">
+        <img
+          src={bgimg}
+          alt="Background Image"
+          className="object-cover object-center w-full h-full"
+        />
+      </div>
 
-    </div> 
+      <ul className="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    // End Background Animation Body
+  );
+};
 
-			<ul className="circles">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
-		// <!--End Background Animation Body-->
-
-  )
-}
-
-export default Background
+export default Background;

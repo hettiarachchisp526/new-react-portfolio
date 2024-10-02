@@ -1,15 +1,19 @@
 
-import HeroSection from './Components/HeroSection'
-import Navbar from './Components/Navbar'
-import Background from './Components/Background'
-import AboutMe from './Components/AboutMe'
-import Services from './Components/Services'
-import Projects from './Components/Projects'
-import Experience from './Components/Experience'
-import Education from './Components/Education'
-import VolunteerEx from './Components/VolunteerEx'
+import { Routes, Route } from "react-router-dom";
 
-import FotterSection from './Components/FotterSection'
+import AboutPage from "./Pages/AboutPage";
+import ServicesPage from "./Pages/ServicesPage";
+import ProjectsPage from "./Pages/ProjectsPage";
+import ExperiencesPage from "./Pages/ExperiencesPage";
+import BlogsPage from "./Pages/BlogsPage";
+import ContactPage from "./Pages/ContactPage";
+
+import Navbar from './Components/Navbar'
+
+
+
+// import FotterSection from './Components/FotterSection'
+import HomePage from "./Pages/HomePage";
 
 
 const App = () => {
@@ -17,18 +21,20 @@ const App = () => {
     <>
 
      <Navbar/>
-     <Background/>
+    
+     <Routes>
+        <Route path="/" element={<HomePage />} /> 
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/experiences" element={<ExperiencesPage />} />
+        <Route path="/blogs" element={<BlogsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    
 
-     <div className="px-6 pt-20 mx-auto max-w-7xl">
-         <HeroSection/>
-         <AboutMe/>
-         <Services/>
-         <Projects/>
-         <Experience/>
-         <Education/>
-         <VolunteerEx/>       
-     </div>
-     <FotterSection/>
+
+     {/* <FotterSection/> */}
     </>
   )
 }
