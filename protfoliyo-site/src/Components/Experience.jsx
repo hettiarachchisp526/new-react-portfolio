@@ -17,6 +17,11 @@ const Experience = () => {
         </p>
     </div>
 
+    
+
+        {/* experiance section - synergenicx------------------------------------------------------- */}
+        <ExSynergenicx/>
+
         {/* experiance section - Parabyte------------------------------------------------------- */}
 
          <ExParabyte/>
@@ -30,10 +35,7 @@ const Experience = () => {
         <ExAimcreation/>
 
 
-        {/* experiance section - synergenicx------------------------------------------------------- */}
-        <ExSynergenicx/>
-
-    
+  
     </div>
   )
 }

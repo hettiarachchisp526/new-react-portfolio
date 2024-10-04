@@ -18,7 +18,7 @@ function CST() {
           </p>
         </div>
         <a
-          href="#"
+          href="mailto:ssubodha0526@gmail.com"
           className="flex items-center gap-2 px-8 py-4 text-lg font-semibold text-orange-500 transition-all duration-500 bg-white rounded-full shadow-sm"
           >Get In Touch
           <svg
