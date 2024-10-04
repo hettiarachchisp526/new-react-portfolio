@@ -92,9 +92,9 @@ const Projects = () => {
                 description="I designed and developed a personal portfolio to showcase my skills, services, and experiences. Using Vite, React, and TailwindCSS, I created a fast, responsive, and visually appealing site that reflects my expertise in modern web development."
                 description2="The minimalist design and intuitive UI ensure seamless navigation, making it easy for visitors to explore my professional journey and the projects I've completed. This project demonstrates my ability to blend creativity with technical skill, resulting in a polished and effective online presence."
                 imageSrc= {Portfolio}
-                githubLink="#"
-                figmaLink="#"
-                BehanceLink="#"
+                githubLink="https://github.com/hettiarachchisp526/new-react-portfolio.git"
+                // figmaLink="#"
+                // BehanceLink="#"
                 showCard={showCard}
               />
               <PortfolioCard
@@ -103,9 +103,9 @@ const Projects = () => {
                 year="2023"
                 description="Under my brand, Dominate Graphics, I designed custom flyers tailored to meet client needs. Utilizing a range of tools including Photoshop, Illustrator, Canva, and Lightroom, I delivered visually compelling designs that effectively communicated brand messages and captured target audiences. Each project was approached with a focus on creativity, precision, and alignment with the client's vision, ensuring standout results in the competitive world of graphic design."
                 imageSrc={Flayers}
-                githubLink="#"
-                figmaLink="#"
-                BehanceLink="#"
+                // githubLink="#"
+                // figmaLink="#"
+                BehanceLink="https://www.behance.net/gallery/209451005/Flyer-Designs"
                 showCard={showCard}
               />
               <PortfolioCard
@@ -114,9 +114,9 @@ const Projects = () => {
                 year="2024"
                 description="For the Prodigy initiative, I crafted a website design that embodies its mission to drive positive transformation across key areas like Youth Development, Entrepreneurship, and Sustainable Development. Using Figma, I developed a user-friendly and visually engaging interface that reflects Prodigy's commitment to empowering the youth and fostering community growth. The design is both modern and intuitive, ensuring that visitors can easily navigate and connect with Prodigy's core objectives and resources."
                 imageSrc={Prodigy}
-                githubLink="#"
-                figmaLink="#"
-                BehanceLink="#"
+                // githubLink="#"
+                figmaLink="https://www.figma.com/proto/A0nnOGYnlY65Dh2PL1ZC7Q/Prodigy?node-id=26-12217&node-type=canvas&t=l6g7pZYslpNZDOE4-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=26%3A12217&show-proto-sidebar=1"
+                // BehanceLink="#"
                 showCard={showCard}
               />
               {/* Add more PortfolioCard components as needed */}

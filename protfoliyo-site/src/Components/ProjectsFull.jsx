@@ -105,9 +105,9 @@ const ProjectsFull = () => {
                   description="I designed and developed a personal portfolio to showcase my skills, services, and experiences. Using Vite, React, and TailwindCSS, I created a fast, responsive, and visually appealing site that reflects my expertise in modern web development."
                   description2="The minimalist design and intuitive UI ensure seamless navigation, making it easy for visitors to explore my professional journey and the projects I've completed. This project demonstrates my ability to blend creativity with technical skill, resulting in a polished and effective online presence."
                   imageSrc= {Portfolio}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  githubLink="https://github.com/hettiarachchisp526/new-react-portfolio.git"
+                  // figmaLink="#"
+                  // BehanceLink="#"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -116,9 +116,9 @@ const ProjectsFull = () => {
                   year="2023"
                   description="Under my brand, Dominate Graphics, I designed custom flyers tailored to meet client needs. Utilizing a range of tools including Photoshop, Illustrator, Canva, and Lightroom, I delivered visually compelling designs that effectively communicated brand messages and captured target audiences. Each project was approached with a focus on creativity, precision, and alignment with the client's vision, ensuring standout results in the competitive world of graphic design."
                   imageSrc={Flayers}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  // figmaLink="#"
+                  BehanceLink="https://www.behance.net/gallery/209451005/Flyer-Designs"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -127,9 +127,9 @@ const ProjectsFull = () => {
                   year="2024"
                   description="For the Prodigy initiative, I crafted a website design that embodies its mission to drive positive transformation across key areas like Youth Development, Entrepreneurship, and Sustainable Development. Using Figma, I developed a user-friendly and visually engaging interface that reflects Prodigy's commitment to empowering the youth and fostering community growth. The design is both modern and intuitive, ensuring that visitors can easily navigate and connect with Prodigy's core objectives and resources."
                   imageSrc={Prodigy}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  figmaLink="https://www.figma.com/proto/A0nnOGYnlY65Dh2PL1ZC7Q/Prodigy?node-id=26-12217&node-type=canvas&t=hHxAFlSRW1Z6ziBk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=26%3A12217&show-proto-sidebar=1"
+                  // BehanceLink="#"
                   showCard={showCard}
                 />
                   <PortfolioCard
@@ -139,9 +139,9 @@ const ProjectsFull = () => {
                   description="As part of a group assignment at university, I contributed to developing a comprehensive Services Center Management System using .NET Core, C#, and MySQL. The system integrates key functionalities such as bill generation, appointment scheduling, inventory management, and employee management, providing an all-in-one solution for managing service center operations.
                                This project highlights my teamwork and collaboration skills, as well as my ability to develop scalable, efficient software that enhances business processes."
                   imageSrc={Autoflash}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  githubLink="https://github.com/hettiarachchisp526/AUTO-FLASH-Service-Center-ADBMS-.git"
+                  // figmaLink="#"
+                  // BehanceLink="#"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -151,9 +151,9 @@ const ProjectsFull = () => {
                   description="I designed a character for the IEEE Day 2022 event, organized by the NSBM IEEE Student Branch. Using Adobe Photoshop and Illustrator, I crafted a visually appealing and event-themed character to represent the spirit of innovation and technology.
                              This project reflects my creativity and proficiency in graphic design tools, as well as my ability to contribute to event branding through impactful visuals."
                   imageSrc={IeeeDay}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  // figmaLink="#"
+                  BehanceLink="https://www.behance.net/gallery/159648667/Character-Design"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -163,9 +163,9 @@ const ProjectsFull = () => {
                   description="As part of a 2nd-year university project, I developed a Flight Management System using HTML, CSS, JavaScript, Bootstrap, and Java. The system incorporates essential functionalities such as ticket booking, flight scheduling, timetable management, and flight details tracking, providing a comprehensive solution for flight operations.
                               This project showcases my ability to develop functional and user-friendly web applications, integrating front-end technologies with Java for streamlined flight management processes."
                   imageSrc={Flight}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  githubLink="https://github.com/hettiarachchisp526/DEA-Project.git"
+                  // figmaLink="#"
+                  BehanceLink="https://www.behance.net/gallery/159612331/Phoenix-Airline-web-application"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -175,9 +175,9 @@ const ProjectsFull = () => {
                   description="I designed a mobile app UI/UX case study focused on empowering Sri Lankan farmers. Using Figma, Illustrator, Draw.io, and Google Forms, I created over 40 screens to facilitate a seamless user experience. The app enables farmers to sell their by-products, receive consultancy services, and access news related to agriculture."
                   description2=""
                   imageSrc= {Govisaviya}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  figmaLink="https://www.figma.com/proto/hvVXDLwzClDKIOS5Cx0L3L/GoviSaviya-Mobile-Application?node-id=2-765&node-type=frame&t=LKE6L6GMDqYa63LD-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A765"
+                  BehanceLink="https://www.behance.net/gallery/175091547/Govi-Saviya-Agriculture-UIUX-Case-Study-Mobile-App"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -187,9 +187,9 @@ const ProjectsFull = () => {
                   description="I designed the UI for an event website using Figma, specifically for the Hackathon Challenge organized by the NSBM FOSS Community in conjunction with Hacktoberfest. The website provides a platform for sharing guidelines, event timelines, and participant registration."
                   description2="This project demonstrates my ability to create user-friendly, visually engaging interfaces for event management, ensuring a smooth experience for participants and organizers."
                   imageSrc= {Hackovate}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  figmaLink="https://www.figma.com/proto/sQeMCqU38DkHgx8QGN6GQ2/HACKOVATE?node-id=1-2&node-type=frame&t=4V2RUzhUwOUjwQES-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2"
+                  BehanceLink="https://www.behance.net/gallery/187675331/Event-Website-UI-Design"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -199,9 +199,9 @@ const ProjectsFull = () => {
                   description="I designed the UI for a conference website using Figma for an event organized by NSBM IEEE in 2022. The website includes all the necessary information about the conference, including speaker profiles, event dates, timelines, and participant registration."
                   description2="This project highlights my ability to design intuitive and professional event websites, ensuring that users can easily access important conference details and register smoothly."
                   imageSrc= {ICTIR}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  // figmaLink="#"
+                  BehanceLink="https://www.behance.net/gallery/187694013/Conference-Website-UI-Design"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -211,9 +211,9 @@ const ProjectsFull = () => {
                   description="As part of my 4th-year DEA project, I developed an Inventory Management System using React for the front end, Spring Boot for the back end, and Figma for the UI design. The system includes comprehensive features such as user management, item requests, returns, bookings, and supplier purchase functionalities, providing an all-in-one solution for managing inventory efficiently."
                   description2="This project showcases my expertise in full-stack development, combining UI/UX design with robust functionality to streamline inventory processes and enhance user experience."
                   imageSrc= {Inventory}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  githubLink="https://github.com/Amanthakeshan2000/Inventory_Management_System.git"
+                  figmaLink="https://www.figma.com/design/JxocYYJpTyfqZcR7IQEV2Y/Inventory-Management-System?node-id=0-1&t=mDHlYkGlsOyeujEM-1"
+                  // BehanceLink="#"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -223,9 +223,9 @@ const ProjectsFull = () => {
                   description="I designed a series of mascot logos using Adobe Illustrator, aimed at creating a portfolio for my Fiverr account and fulfilling the needs of local clients. Each logo was tailored to reflect the unique branding requirements of the clients, combining creativity and precision in character design."
                   description2="This project demonstrates my ability to create engaging and visually distinctive mascot logos that align with the branding strategies of diverse clients."
                   imageSrc= {Mascot}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  // figmaLink="#"
+                  BehanceLink="https://www.behance.net/gallery/158883775/Logo-designs-Vector-arts"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -235,9 +235,9 @@ const ProjectsFull = () => {
                   description="I designed minimalist logos using Adobe Illustrator for my Fiverr account and client orders from my own business, Dominate Graphics. These logos focus on simplicity and elegance, aligning with modern branding trends to meet the needs of diverse clients."
                   description2="This project showcases my ability to create clean, impactful logo designs that effectively communicate a brand’s identity with minimal elements."
                   imageSrc= {Logo}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  // figmaLink="#"
+                  BehanceLink="https://www.behance.net/gallery/158883775/Logo-designs-Vector-arts"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -247,21 +247,9 @@ const ProjectsFull = () => {
                   description="As part of a 3rd-year university project, I developed a Skill Improvement Mobile App using Flutter and Firebase. The app allows students to enhance their skills by enrolling in online courses, earning certificates, and participating in a ranking system. Talented students can also earn badges as a recognition of their achievements."
                   description2="This project highlights my proficiency in mobile app development, showcasing my ability to create feature-rich, user-friendly applications that promote learning and skill development."
                   imageSrc= {Skillup}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
-                  showCard={showCard}
-                />
-                <PortfolioCard
-                  category="UiUx Design"
-                  title="Skill Improvement Mobile App"
-                  year="2023"
-                  description="As part of a 3rd-year university project, I developed a Skill Improvement Mobile App using Flutter and Firebase. The app allows students to enhance their skills by enrolling in online courses, earning certificates, and participating in a ranking system. Talented students can also earn badges as a recognition of their achievements."
-                  description2="This project highlights my proficiency in mobile app development, showcasing my ability to create feature-rich, user-friendly applications that promote learning and skill development."
-                  imageSrc= {Skillup}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  githubLink="https://github.com/hettiarachchisp526/skillup-flutter-app-nsbm.git"
+                  figmaLink="https://www.figma.com/proto/xRRSReVge8hDBWW3nZO435/SkilUP?node-id=991-7071&node-type=frame&t=oQKeKqCq2yWcNtPu-1&scaling=scale-down&content-scaling=fixed&page-id=629%3A1915&starting-point-node-id=991%3A4381"
+                  BehanceLink="https://www.behance.net/gallery/181154459/UIUX-Case-Study-Skill-Improvement-App"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -271,9 +259,9 @@ const ProjectsFull = () => {
                   description="I designed and developed the SMARTSYNC mobile app, a smart home device control application. The app enables users to control various smart home devices and monitor power usage. The intuitive UI/UX design ensures easy navigation and efficient device management."
                   description2="This project demonstrates my ability to combine functional app development with user-centered design, offering a seamless experience for managing smart home technology."
                   imageSrc= {SmartHome}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  figmaLink="https://www.figma.com/design/tqUofdmNqbEpWR4bOaiSIg/SMARTSYNC-UI-Project-(Copy)?node-id=0-1&t=0JnNr4xZVsXXpCQh-1"
+                  // BehanceLink="#"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -283,9 +271,9 @@ const ProjectsFull = () => {
                   description="I created custom vector portrait art using Adobe Illustrator, designed specifically for client needs through Dominate Graphics. The artwork was tailored to capture the unique features and essence of each client, providing them with personalized and visually striking portraits."
                   description2="This project highlights my ability to translate personal imagery into high-quality vector art, ensuring that the final product aligns with the client’s vision and branding."
                   imageSrc= {Vector}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  // figmaLink="#"
+                  // BehanceLink="#"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -295,9 +283,9 @@ const ProjectsFull = () => {
                   description="I designed a user interface for a VR-based application using Figma as part of a Designathon competition. The UI allows students to engage in virtual learning environments, simulating real-life lab experiences for studying and conducting practicals. The platform also includes functionality for selecting the top 10 teams in the competition."
                   description2="This project showcases my ability to design immersive and interactive UI solutions that leverage VR technology to enhance the educational experience."
                   imageSrc= {VR}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  // figmaLink="#"
+                  BehanceLink="https://www.behance.net/gallery/183204305/E-LEARNING-APP-VR-UI-DESIGN"
                   showCard={showCard}
                 />
                 <PortfolioCard
@@ -307,9 +295,9 @@ const ProjectsFull = () => {
                   description="I designed the UI/UX for an electronic store website using Figma. The design incorporates all essential functionalities, including product listings, shopping cart, checkout process, user authentication, and product filtering options, ensuring a seamless shopping experience for users."
                   description2="This project demonstrates my ability to create functional and visually appealing e-commerce interfaces that prioritize user experience and ease of navigation."
                   imageSrc= {XYgen}
-                  githubLink="#"
-                  figmaLink="#"
-                  BehanceLink="#"
+                  // githubLink="#"
+                  figmaLink="https://www.figma.com/design/Yw0eADkuGSaJ4CoV4B7CoD/XYGen.ai---UI%2FUX-Engineer-Assignment?node-id=0-1&t=q9bhJJRkZyHDMU0t-1"
+                  // BehanceLink="#"
                   showCard={showCard}
                 />
 
