@@ -8,13 +8,9 @@ import ExperiencesPage from "./Pages/ExperiencesPage";
 import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
 
-import Navbar from './Components/Navbar'
-
-
-
+import Navbar from './Components/Navbar';
 // import FotterSection from './Components/FotterSection'
 import HomePage from "./Pages/HomePage";
-
 
 const App = () => {
   return (
