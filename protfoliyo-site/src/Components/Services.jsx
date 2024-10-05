@@ -32,13 +32,7 @@ className="flex flex-col items-center max-w-full ">
 
 <div className="grid flex-row justify-center gap-4 sm:grid-cols-2 md:grid-cols-3">
 
-    <motion.div
-    variants={fadeIn("right", 0.2)}
-    initial="hidden"
-    whileInView={"show"}
-    viewport={{once: false, amount: 0.7}}
-
-        className="relative p-2 overflow-hidden transition-all duration-500 bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
+    <div className="relative p-2 overflow-hidden transition-all duration-500 bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
         <img src={uiux} alt="Description of the image" className="w-12 h-12" /> 
             <div className="space-y-2">
@@ -46,7 +40,7 @@ className="flex flex-col items-center max-w-full ">
                 <p className="text-sm text-gray-400 text-muted-foreground">Crafting intuitive and visually appealing interfaces that enhance user experience and engagement.</p>
             </div>
         </div>
-    </motion.div>
+    </div>
 
     <div
         className="relative p-2 overflow-hidden transition-all duration-500 bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
@@ -59,13 +53,7 @@ className="flex flex-col items-center max-w-full ">
         </div>
     </div>
 
-    <motion.div
-    variants={fadeIn("left", 0.2)}
-    initial="hidden"
-    whileInView={"show"}
-    viewport={{once: false, amount: 0.7}}
-
-        className="relative p-2 overflow-hidden transition-all duration-500 bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
+    <div className="relative p-2 overflow-hidden transition-all duration-500 bg-gray-400 border-none rounded-lg select-none hover:shadow-md hover:shadow-orange-400 backdrop-blur-md bg-opacity-10">
         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
         <img src={graphics} alt="Description of the image" className="w-12 h-12" />
             <div className="space-y-2">
@@ -73,7 +61,7 @@ className="flex flex-col items-center max-w-full ">
                 <p className="text-sm text-gray-400 text-muted-foreground">Creating impactful visuals that communicate your brand's message and captivate your audience.</p>
             </div>
         </div>
-    </motion.div>
+    </div>
 
 
 

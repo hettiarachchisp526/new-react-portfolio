@@ -41,7 +41,7 @@ function ContactMe() {
     };
 
     return (
-        <div className="mt-6 max-w-6xl max-lg:max-w-3xl mx-auto bg-[#202020] rounded-lg ">
+        <div className="mb-16 mt-6 max-w-6xl max-lg:max-w-3xl mx-auto bg-[#202020] rounded-lg ">
             <div className="grid lg:grid-cols-2 items-center gap-14 sm:p-8 p-4 font-[sans-serif]">
                 <div>
                     <h1 className="text-4xl font-bold text-white">Get in Touch</h1>
